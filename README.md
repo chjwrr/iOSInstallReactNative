@@ -2,7 +2,7 @@
 iOS原生集成ReactNative
 
 
-cd reactnative、
+cd reactnative
 
 
 yarn install
