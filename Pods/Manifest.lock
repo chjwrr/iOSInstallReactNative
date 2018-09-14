@@ -1,0 +1,126 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - boost-for-react-native (1.63.0)
+  - DoubleConversion (1.1.5)
+  - Folly (2016.10.31.00):
+    - boost-for-react-native
+    - DoubleConversion
+    - glog
+  - glog (0.3.4)
+  - MBProgressHUD (1.1.0)
+  - React/ART (0.56.0):
+    - React/Core
+  - React/Core (0.56.0):
+    - yoga (= 0.56.0.React)
+  - React/CxxBridge (0.56.0):
+    - Folly (= 2016.10.31.00)
+    - React/Core
+    - React/cxxreact
+  - React/cxxreact (0.56.0):
+    - boost-for-react-native (= 1.63.0)
+    - Folly (= 2016.10.31.00)
+    - React/jschelpers
+    - React/jsinspector
+  - React/DevSupport (0.56.0):
+    - React/Core
+    - React/RCTWebSocket
+  - React/fishhook (0.56.0)
+  - React/jschelpers (0.56.0):
+    - Folly (= 2016.10.31.00)
+    - React/PrivateDatabase
+  - React/jsinspector (0.56.0)
+  - React/PrivateDatabase (0.56.0)
+  - React/RCTActionSheet (0.56.0):
+    - React/Core
+  - React/RCTBlob (0.56.0):
+    - React/Core
+  - React/RCTGeolocation (0.56.0):
+    - React/Core
+  - React/RCTImage (0.56.0):
+    - React/Core
+    - React/RCTNetwork
+  - React/RCTLinkingIOS (0.56.0):
+    - React/Core
+  - React/RCTNetwork (0.56.0):
+    - React/Core
+  - React/RCTPushNotification (0.56.0):
+    - React/Core
+  - React/RCTSettings (0.56.0):
+    - React/Core
+  - React/RCTText (0.56.0):
+    - React/Core
+  - React/RCTVibration (0.56.0):
+    - React/Core
+  - React/RCTWebSocket (0.56.0):
+    - React/Core
+    - React/fishhook
+    - React/RCTBlob
+  - yoga (0.56.0.React)
+
+DEPENDENCIES:
+  - AFNetworking
+  - DoubleConversion (from `./reactnative/node_modules/react-native/third-party-podspecs/DoubleConversion.podspec`)
+  - Folly (from `./reactnative/node_modules/react-native/third-party-podspecs/Folly.podspec`)
+  - glog (from `./reactnative/node_modules/react-native/third-party-podspecs/glog.podspec`)
+  - MBProgressHUD
+  - React/ART (from `./reactnative/node_modules/react-native`)
+  - React/Core (from `./reactnative/node_modules/react-native`)
+  - React/CxxBridge (from `./reactnative/node_modules/react-native`)
+  - React/DevSupport (from `./reactnative/node_modules/react-native`)
+  - React/RCTActionSheet (from `./reactnative/node_modules/react-native`)
+  - React/RCTGeolocation (from `./reactnative/node_modules/react-native`)
+  - React/RCTImage (from `./reactnative/node_modules/react-native`)
+  - React/RCTLinkingIOS (from `./reactnative/node_modules/react-native`)
+  - React/RCTNetwork (from `./reactnative/node_modules/react-native`)
+  - React/RCTPushNotification (from `./reactnative/node_modules/react-native`)
+  - React/RCTSettings (from `./reactnative/node_modules/react-native`)
+  - React/RCTText (from `./reactnative/node_modules/react-native`)
+  - React/RCTVibration (from `./reactnative/node_modules/react-native`)
+  - React/RCTWebSocket (from `./reactnative/node_modules/react-native`)
+  - yoga (from `./reactnative/node_modules/react-native/ReactCommon/yoga`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - boost-for-react-native
+    - MBProgressHUD
+
+EXTERNAL SOURCES:
+  DoubleConversion:
+    :podspec: "./reactnative/node_modules/react-native/third-party-podspecs/DoubleConversion.podspec"
+  Folly:
+    :podspec: "./reactnative/node_modules/react-native/third-party-podspecs/Folly.podspec"
+  glog:
+    :podspec: "./reactnative/node_modules/react-native/third-party-podspecs/glog.podspec"
+  React:
+    :path: "./reactnative/node_modules/react-native"
+  yoga:
+    :path: "./reactnative/node_modules/react-native/ReactCommon/yoga"
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  boost-for-react-native: 39c7adb57c4e60d6c5479dd8623128eb5b3f0f2c
+  DoubleConversion: a6ec5115d02a687c3a7350d6462b8c3e744bfa41
+  Folly: fa458a15230e6bee654f3e2b25f6be60f0b61bf3
+  glog: cffdcd539a4fed795bdf0146afde6dd4a981576c
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
+  React: 1fe0eb13d90b625d94c3b117c274dcfd2e760e11
+  yoga: b1ce48b6cf950b98deae82838f5173ea7cf89e85
+
+PODFILE CHECKSUM: f7092ec89cacb964e80c614613dc9a08673d8597
+
+COCOAPODS: 1.6.0.beta.1
